@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5b120b4-2b52-4d84-8ea9-fb5357f86612" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/navigation/OnlinerNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/OnlinerHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/CatalogBarLinksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComponentsProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GX0Kmx86p6D3QaAiY3pPXmhLf1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/ProjectsAcademy/AutomationExamples/PageFactoryExample",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice">
+    <configuration name="CatalogBarLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.CatalogBarLinksTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentsProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComponentsProductsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComponentsProductsTest" />
+      <option name="METHOD_NAME" value="testComponentsCategoryHasProductsWithNamesAndPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerNetworksCategoriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComputerNetworksCategoriesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerNetworksCategoriesTest.testCatalogBarHasExactLinksNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComputerNetworksCategoriesTest" />
+      <option name="METHOD_NAME" value="testCatalogBarHasExactLinksNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice" />
+        <item itemvalue="TestNG.ComputerNetworksCategoriesTest.testCatalogBarHasExactLinksNames" />
+        <item itemvalue="TestNG.ComponentsProductsTest" />
+        <item itemvalue="TestNG.CatalogBarLinksTest" />
+        <item itemvalue="TestNG.ComputerNetworksCategoriesTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5b120b4-2b52-4d84-8ea9-fb5357f86612" name="Changes" comment="" />
+      <created>1666519562738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666519562738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/OnlinerTest.java</url>
+          <line>18</line>
+          <properties class="com.academy.homework5.onliner.tests.OnlinerTest" method="webDriverOpenCloseTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
