@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
+import static com.it_academy.homework5.onliner.framework.CommonWebElementUtils.getTextsFromWebElements;
 import static java.lang.String.format;
 import static org.openqa.selenium.By.xpath;
 
@@ -29,9 +29,6 @@ public class CatalogPage extends BasePage {
     }
 
     public List<String> getCatalogBarLinksText(){
-        return getCatalogBarLinks()
-                .stream()
-                .map(WebElement::getText)
-                .collect(Collectors.toList());
+        return getTextsFromWebElements(getCatalogBarLinks());
     }
 }

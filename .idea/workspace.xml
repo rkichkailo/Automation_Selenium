@@ -5,25 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5b120b4-2b52-4d84-8ea9-fb5357f86612" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/navigation/OnlinerNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/OnlinerHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/CatalogBarLinksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComponentsProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/CommonWebElementUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/framework/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/framework/CommonSelElementUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/navigation/OnlinerNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/CatalogBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/CatalogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/HeaderSubMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/OnlinerHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework6/onliner/page_object/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/cucumber/runner/CucumberTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/cucumber/steps/CarMarketSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/cucumber/steps/HousesAndFlatsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework6/onliner/tests/CatalogBarLinksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework6/onliner/tests/ComponentsProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework6/onliner/tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/CarMarketTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/HousesAndFlatsTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/framework/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/OnlinerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/OnlinerHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/homework5/onliner/page_object/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComponentsProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/homework5/onliner/tests/ComponentsProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,47 +63,122 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/ProjectsAcademy/AutomationExamples/PageFactoryExample",
+    "last_opened_file_path": "D:/ProjectsAcademy/AutomationExamples/BDDTest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice">
-    <configuration name="CatalogBarLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: CarMarket sub menu should contain appropriate categories">
+    <configuration name="Feature: OnlinerMenuTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/OnlinerMenuTest.feature" />
+      <option name="GLUE" value="com.it_academy.cucumber.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Selenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: OnlinerMenuTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.CatalogBarLinksTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentsProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CarFleaMarket sub menu should contain appropriate categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/OnlinerMenuTest.feature" />
+      <option name="GLUE" value="com.it_academy.cucumber.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Selenium" />
+      <option name="NAME_FILTER" value="^CarFleaMarket sub menu should contain appropriate categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CarFleaMarket sub menu should contain appropriate categories$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: CarFleaMarket sub menu should contain appropriate categories" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComponentsProductsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Scenario: CarMarket sub menu should contain appropriate categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/CarMarketTest.feature" />
+      <option name="GLUE" value="com.it_academy.cucumber.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Selenium" />
+      <option name="NAME_FILTER" value="^CarMarket sub menu should contain appropriate categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CarMarket sub menu should contain appropriate categories$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CarMarket sub menu should contain appropriate categories" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: HousesAndFlats sub menu should contain appropriate categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com.it_academy.cucumber.features/HousesAndFlatsTest.feature" />
+      <option name="GLUE" value="com.it_academy.cucumber.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Selenium" />
+      <option name="NAME_FILTER" value="^HousesAndFlats sub menu should contain appropriate categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^HousesAndFlats sub menu should contain appropriate categories$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: HousesAndFlats sub menu should contain appropriate categories" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTests by tags" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="-Dcucumber.options=--tags @smoke" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
@@ -114,48 +198,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerNetworksCategoriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComputerNetworksCategoriesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerNetworksCategoriesTest.testCatalogBarHasExactLinksNames" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it_academy.homework5.onliner.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it_academy.homework5.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.homework5.onliner.tests.ComputerNetworksCategoriesTest" />
-      <option name="METHOD_NAME" value="testCatalogBarHasExactLinksNames" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: HousesAndFlats sub menu should contain appropriate categories" />
+      <item itemvalue="Cucumber Java.Scenario: CarMarket sub menu should contain appropriate categories" />
+      <item itemvalue="Cucumber Java.Feature: OnlinerMenuTest" />
+      <item itemvalue="Cucumber Java.Scenario: CarFleaMarket sub menu should contain appropriate categories" />
+      <item itemvalue="Maven.RunTests by tags" />
+      <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: CarMarket sub menu should contain appropriate categories" />
+        <item itemvalue="Cucumber Java.Scenario: CarFleaMarket sub menu should contain appropriate categories" />
+        <item itemvalue="Cucumber Java.Feature: OnlinerMenuTest" />
         <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesAndPrice" />
-        <item itemvalue="TestNG.ComputerNetworksCategoriesTest.testCatalogBarHasExactLinksNames" />
-        <item itemvalue="TestNG.ComponentsProductsTest" />
-        <item itemvalue="TestNG.CatalogBarLinksTest" />
-        <item itemvalue="TestNG.ComputerNetworksCategoriesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +224,19 @@
       <option name="presentableId" value="Default" />
       <updated>1666519562738</updated>
     </task>
+    <task id="LOCAL-00001" summary="homework5 - Selenium">
+      <created>1667218273727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667218273727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework5 - Selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework5 - Selenium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

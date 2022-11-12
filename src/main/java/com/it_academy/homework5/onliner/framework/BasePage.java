@@ -2,6 +2,7 @@ package com.it_academy.homework5.onliner.framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -40,5 +41,11 @@ public abstract class BasePage {
     public List<WebElement> waitForElementsVisible(By by) {
         return new WebDriverWait(getDriver(), DRIVER_WAIT_TIME)
                 .until(visibilityOfAllElementsLocatedBy(by));
+    }
+
+    public void moveToElement(WebElement element){
+        Actions action = new Actions(DriverManager.getDriver());
+        action.moveToElement(element).
+                build().perform();
     }
 }

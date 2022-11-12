@@ -2,16 +2,14 @@ package com.it_academy.homework5.onliner.tests;
 
 import com.it_academy.homework5.onliner.page_object.Header;
 import com.it_academy.homework5.onliner.page_object.Product;
+import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
 import static com.it_academy.homework5.onliner.framework.DriverManager.closeDriver;
 import static com.it_academy.homework5.onliner.framework.DriverManager.startDriver;
 import static com.it_academy.homework5.onliner.navigation.OnlinerNavigation.navigateToOnlinerHomePage;
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class ComponentsProductsTest {
 
@@ -33,23 +31,23 @@ public class ComponentsProductsTest {
                     header.clickOnCatalogLink()
                     .selectCatalogBlock("Компьютеры и")
                     .moveToCatalogBlockCategoryLink("Комплектующие");
-        int actualProductCount = products.getProductsCount();
-        List<String>actualProductsTitles = products.getProductsTitles();
-        List<String>actualProductsData = products.getProductsData();
+        int actualProductCount = products.getProducts().size();
 
-        assertThat(actualProductsTitles)
+        SoftAssertions softy = new SoftAssertions();
+        softy.assertThat(products.getProductsTitles())
                 .as("Product(s) doesn't have title")
                 .isNotEmpty()
                 .noneMatch(el -> el.matches(PRODUCT_TITLE_PATTERN))
                 .hasSize(actualProductCount);
-        assertThat(actualProductsData)
+        softy.assertThat(products.getProductsData())
                 .as ("Product(s) doesn't have counter")
                 .isNotEmpty()
                 .allMatch(el -> el.contains(PRODUCT_COUNTER_PATTERN))
                 .hasSize(actualProductCount);
-        assertThat(actualProductsData)
+        softy.assertThat(products.getProductsData())
                 .as ("Product(s) doesn't have price")
                 .allMatch(el -> el.endsWith(PRODUCT_PRICE_PATTERN));
+        softy.assertAll();
     }
 
     @AfterClass
