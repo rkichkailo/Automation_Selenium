@@ -1,4 +1,4 @@
-package com.it_academy.homework5.onliner.tests;
+package com.it_academy.onliner.tests;
 
 import com.it_academy.homework5.onliner.page_object.Header;
 import org.testng.annotations.AfterClass;
